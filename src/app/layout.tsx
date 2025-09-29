@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { Suspense } from 'react';
 import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
@@ -31,7 +32,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn('scroll-smooth', lato.variable, merriweather.variable)}>
       <body className={cn('font-body antialiased min-h-screen flex flex-col bg-background')}>
-        <Header />
+        <Suspense fallback={<div className="h-20" />}> 
+          <Header />
+        </Suspense>
         <main className="flex-grow">{children}</main>
         <Footer />
         <Toaster />
