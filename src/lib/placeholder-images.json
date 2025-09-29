@@ -1,0 +1,382 @@
+{
+  "placeholderImages": [
+    {
+      "id": "adobo",
+      "description": "A classic Filipino Chicken Adobo simmering in a pot.",
+      "imageUrl": "/images/recipes/chicken/chicken-adobo.jpeg",
+      "imageHint": "chicken adobo"
+    },
+    {
+      "id": "afritada",
+      "description": "Chicken braised in tomato sauce with potatoes, carrots, and bell peppers.",
+      "imageUrl": "/images/recipes/chicken/afritada.jpeg",
+      "imageHint": "chicken afritada"
+    },
+    {
+      "id": "tinola",
+      "description": "A comforting bowl of Chicken Tinola with ginger and papaya.",
+      "imageUrl": "/images/recipes/chicken/tinola.jpg",
+      "imageHint": "chicken tinola"
+    },
+    {
+      "id": "chicken-curry",
+      "description": "A Filipino-style curry with coconut milk, potatoes, and carrots.",
+      "imageUrl": "/images/recipes/chicken/chicken-curry.jpeg",
+      "imageHint": "chicken curry"
+    },
+    {
+      "id": "chicken-inasal",
+      "description": "Grilled chicken marinated in lemongrass, annatto, and calamansi.",
+      "imageUrl": "/images/recipes/chicken/chicken-inasal.jpeg",
+      "imageHint": "chicken inasal"
+    },
+    {
+      "id": "chicken-tocino",
+      "description": "Sweet and garlicky Filipino cured chicken marinated in pineapple juice.",
+      "imageUrl": "/images/recipes/chicken/chicken-tocino.jpeg",
+      "imageHint": "chicken tocino"
+    },
+    {
+      "id": "chicken-longganisa",
+      "description": "Filipino chicken sausage with sweet and garlicky flavors.",
+      "imageUrl": "/images/recipes/chicken/chicken-longganisa.jpeg",
+      "imageHint": "chicken longganisa"
+    },
+    {
+      "id": "chicken-barbecue",
+      "description": "Sweet and savory grilled chicken with Filipino-style marinade.",
+      "imageUrl": "/images/recipes/chicken/chicken-barbeque.jpeg",
+      "imageHint": "chicken barbecue"
+    },
+    {
+      "id": "chicken-pastel",
+      "description": "Filipino chicken pie with vegetables in creamy sauce topped with pastry.",
+      "imageUrl": "/images/recipes/chicken/chicken-pastel.jpeg",
+      "imageHint": "chicken pastel"
+    },
+    {
+      "id": "chicken-relleno",
+      "description": "Deboned whole chicken stuffed with ground pork, sausage, and vegetables.",
+      "imageUrl": "/images/recipes/chicken/chicken-relleno.jpeg",
+      "imageHint": "chicken relleno"
+    },
+    {
+      "id": "chicken-cordon-bleu-filipino",
+      "description": "Filipino version of cordon bleu with ham, cheese, and sweet sauce.",
+      "imageUrl": "/images/recipes/chicken/chicken-cordon.jpeg",
+      "imageHint": "chicken cordon bleu"
+    },
+    {
+      "id": "chicken-binakol",
+      "description": "Filipino chicken soup cooked in coconut water with green papaya.",
+      "imageUrl": "/images/recipes/chicken/chicken-binakol.jpeg",
+      "imageHint": "chicken binakol"
+    },
+    {
+      "id": "chicken-galantina",
+      "description": "Stuffed chicken roll with ground pork, sausage, and vegetables.",
+      "imageUrl": "/images/recipes/chicken/chicken-galantina.jpeg",
+      "imageHint": "chicken galantina"
+    },
+    {
+      "id": "chicken-mechado",
+      "description": "Filipino chicken stew in tomato sauce with potatoes and bell peppers.",
+      "imageUrl": "/images/recipes/chicken/chicken-mechado.jpeg",
+      "imageHint": "chicken mechado"
+    },
+    {
+      "id": "chicken-paksiw",
+      "description": "Filipino chicken braised in vinegar with soy sauce and spices.",
+      "imageUrl": "/images/recipes/chicken/chicken-paksiw.jpeg",
+      "imageHint": "chicken paksiw"
+    },
+    {
+      "id": "pork-adobo",
+      "description": "The pork variation of the classic adobo, rich and savory.",
+      "imageUrl": "/images/recipes/pork/pork-adobo.JPG",
+      "imageHint": "pork adobo"
+    },
+    {
+      "id": "pork-menudo",
+      "description": "A tomato-based stew with pork, liver, potatoes, carrots, and raisins.",
+      "imageUrl": "/images/recipes/pork/pork-menudo.jpeg",
+      "imageHint": "pork menudo"
+    },
+    {
+      "id": "pork-sinigang",
+      "description": "A sour tamarind-based soup with pork and assorted vegetables.",
+      "imageUrl": "/images/recipes/pork/pork-sinigang.jpeg",
+      "imageHint": "pork sinigang"
+    },
+    {
+      "id": "lechon-kawali",
+      "description": "Crispy deep-fried pork belly served with a dipping sauce.",
+      "imageUrl": "/images/recipes/pork/pork-kawali.jpeg",
+      "imageHint": "lechon kawali"
+    },
+    {
+      "id": "pork-pata",
+      "description": "Deep-fried pork leg that is crispy on the outside and tender inside.",
+      "imageUrl": "/images/recipes/pork/pork-pata.jpeg",
+      "imageHint": "pork pata"
+    },
+    {
+      "id": "pork-morcon",
+      "description": "Filipino stuffed pork roll with sausage, eggs, and vegetables in tomato sauce.",
+      "imageUrl": "/images/recipes/pork/pork-morcon.jpeg",
+      "imageHint": "pork morcon"
+    },
+    {
+      "id": "pork-hamonado",
+      "description": "Sweet and savory Filipino pork stew with pineapple.",
+      "imageUrl": "/images/recipes/pork/pork-hamonado.jpeg",
+      "imageHint": "pork hamonado"
+    },
+    {
+      "id": "pork-igado",
+      "description": "Ilocano pork and liver stew with vegetables in savory sauce.",
+      "imageUrl": "/images/recipes/pork/pork-igado.jpeg",
+      "imageHint": "pork igado"
+    },
+    {
+      "id": "pork-dinuguan",
+      "description": "Filipino pork blood stew with tender pork pieces in rich, dark sauce.",
+      "imageUrl": "/images/recipes/pork/pork-dinuguan.jpeg",
+      "imageHint": "pork dinuguan"
+    },
+    {
+      "id": "pork-binagoongan",
+      "description": "Pork cooked in shrimp paste with vegetables and coconut milk.",
+      "imageUrl": "/images/recipes/pork/pork-binagoongan.jpeg",
+      "imageHint": "pork binagoongan"
+    },
+    {
+      "id": "pork-estofado",
+      "description": "Filipino pork stew with banana, potatoes, and sweet sauce.",
+      "imageUrl": "/images/recipes/pork/pork-estofado.jpeg",
+      "imageHint": "pork estofado"
+    },
+    {
+      "id": "pork-barbeque",
+      "description": "Filipino grilled pork skewers with sweet and savory marinade.",
+      "imageUrl": "/images/recipes/pork/pork-barbeque.jpeg",
+      "imageHint": "pork barbecue"
+    },
+    {
+      "id": "pork-humba",
+      "description": "Visayan braised pork belly with fermented black beans and banana blossoms.",
+      "imageUrl": "/images/recipes/pork/pork-humba.jpeg",
+      "imageHint": "pork humba"
+    },
+    {
+      "id": "pork-sisig",
+      "description": "The original Kapampangan sisig with grilled pork face and liver.",
+      "imageUrl": "/images/recipes/pork/pork-sisig.jpeg",
+      "imageHint": "pork sisig"
+    },
+    {
+      "id": "pork-bopis",
+      "description": "Spicy Filipino dish made with pork lungs and heart in tomato sauce.",
+      "imageUrl": "/images/recipes/pork/pork-bopis.jpeg",
+      "imageHint": "pork bopis"
+    },
+    {
+      "id": "beef-caldereta",
+      "description": "A rich tomato-based beef stew with potatoes, carrots, and bell peppers.",
+      "imageUrl": "/images/recipes/beef/beef-kaldereta.jpg",
+      "imageHint": "beef caldereta"
+    },
+    {
+      "id": "beef-nilaga",
+      "description": "A light and comforting boiled beef soup with vegetables.",
+      "imageUrl": "/images/recipes/beef/beef-nilaga.jpg",
+      "imageHint": "beef nilaga"
+    },
+    {
+      "id": "beef-tapa",
+      "description": "Thinly sliced beef cured and fried, commonly served with garlic rice and egg.",
+      "imageUrl": "/images/recipes/beef/beef-tapa.jpg",
+      "imageHint": "beef tapa"
+    },
+    {
+      "id": "beef-bulalo",
+      "description": "A Filipino beef marrow stew with corn, pechay, and cabbage.",
+      "imageUrl": "/images/recipes/beef/beef-bulalo.jpg",
+      "imageHint": "beef bulalo"
+    },
+    {
+      "id": "beef-bistek",
+      "description": "Filipino beef steak with onions in soy sauce and calamansi marinade.",
+      "imageUrl": "/images/recipes/beef/beef-bistek.jpeg",
+      "imageHint": "beef bistek"
+    },
+    {
+      "id": "beef-morcon",
+      "description": "Stuffed beef roll with sausage, eggs, and vegetables in rich tomato sauce.",
+      "imageUrl": "/images/recipes/beef/beef-morcon.jpeg",
+      "imageHint": "beef morcon"
+    },
+    {
+      "id": "seafood-hipon",
+      "description": "A sour tamarind-based soup with fresh shrimp and vegetables.",
+      "imageUrl": "/images/recipes/seafood/seafood-hipon.jpg",
+      "imageHint": "sinigang na hipon"
+    },
+    {
+      "id": "seafood-relleno",
+      "description": "Stuffed milkfish filled with sautéed vegetables and spices.",
+      "imageUrl": "/images/recipes/seafood/seafood-relleno.jpg",
+      "imageHint": "rellenong bangus"
+    },
+    {
+      "id": "seafood-alimasag",
+      "description": "Crabs cooked in rich coconut milk with vegetables.",
+      "imageUrl": "/images/recipes/seafood/seafood-alimasag.jpg",
+      "imageHint": "ginataang alimasag"
+    },
+    {
+      "id": "seafood-pusit",
+      "description": "Squid cooked adobo-style with soy sauce, vinegar, and garlic.",
+      "imageUrl": "/images/recipes/seafood/seafood-pusit.jpg",
+      "imageHint": "adobong pusit"
+    },
+    {
+      "id": "seafood-bangus",
+      "description": "Flaked milkfish sisig with onions, chili peppers, and citrus.",
+      "imageUrl": "/images/recipes/seafood/seafood-bangus.jpg",
+      "imageHint": "bangus sisig"
+    },
+    {
+      "id": "vegan-laing",
+      "description": "Dried taro leaves cooked in coconut milk and chili.",
+      "imageUrl": "/images/recipes/vegan/vegan-laing.jpg",
+      "imageHint": "laing"
+    },
+    {
+      "id": "vegan-chopsuey",
+      "description": "A stir-fried vegetable medley with colorful vegetables.",
+      "imageUrl": "/images/recipes/vegan/vegan-chopsuey.jpg",
+      "imageHint": "chop suey"
+    },
+    {
+      "id": "vegan-ampalaya",
+      "description": "Stir-fried bitter melon with egg, onion, and tomato.",
+      "imageUrl": "/images/recipes/vegan/vegan-ampalaya.jpg",
+      "imageHint": "ginisang ampalaya"
+    },
+    {
+      "id": "ginataang-kalabasa",
+      "description": "String beans and squash cooked in coconut milk - a healthy vegan dish.",
+      "imageUrl": "/images/recipes/vegan/vegan-ginataan.jpg",
+      "imageHint": "ginataang sitaw at kalabasa"
+    },
+    {
+      "id": "adobong-kangkong",
+      "description": "Filipino water spinach cooked in soy sauce, vinegar, and garlic.",
+      "imageUrl": "/images/recipes/vegan/vegan-kangkong.jpg",
+      "imageHint": "adobong kangkong"
+    },
+    {
+      "id": "mami",
+      "description": "A Filipino noodle soup influenced by Chinese cuisine with chicken, pork, or beef broth.",
+      "imageUrl": "/images/recipes/soups/soup-mami.jpg",
+      "imageHint": "mami noodle soup"
+    },
+    {
+      "id": "sopas",
+      "description": "A creamy Filipino macaroni soup with chicken, vegetables, and milk.",
+      "imageUrl": "/images/recipes/soups/soup-sopas.jpg",
+      "imageHint": "sopas macaroni soup"
+    },
+    {
+      "id": "papaitan",
+      "description": "An Ilocano soup made from beef or goat innards, flavored with bile for a bitter taste.",
+      "imageUrl": "/images/recipes/soups/soup-papaitan.jpg",
+      "imageHint": "papaitan soup"
+    },
+    {
+      "id": "suam-na-mais",
+      "description": "A Kapampangan corn soup made with fresh corn kernels and leafy greens.",
+      "imageUrl": "/images/recipes/soups/soup-mais.jpg",
+      "imageHint": "suam na mais corn soup"
+    },
+    {
+      "id": "sinanglay-na-tilapia",
+      "description": "A Bicolano dish of tilapia stuffed with tomatoes and onions, simmered in coconut milk.",
+      "imageUrl": "/images/recipes/soups/soup-tilapya.jpg",
+      "imageHint": "sinanglay na tilapia"
+    },
+    {
+      "id": "leche-flan",
+      "description": "A rich and creamy caramel custard dessert.",
+      "imageUrl": "/images/recipes/desserts/dessert-lecheflan.jpg",
+      "imageHint": "leche flan"
+    },
+    {
+      "id": "halo-halo",
+      "description": "A famous Filipino shaved ice dessert with mixed sweetened fruits and milk.",
+      "imageUrl": "/images/recipes/desserts/dessert-halohalo.jpg",
+      "imageHint": "halo halo"
+    },
+    {
+      "id": "buko-pandan",
+      "description": "A creamy dessert made with pandan-flavored gelatin, coconut, and cream.",
+      "imageUrl": "/images/recipes/desserts/dessert-buko.jpg",
+      "imageHint": "buko pandan"
+    },
+    {
+      "id": "maja-blanca",
+      "description": "A coconut pudding dessert topped with toasted coconut or latik.",
+      "imageUrl": "/images/recipes/desserts/dessert-maja.jpg",
+      "imageHint": "maja blanca"
+    },
+    {
+      "id": "buko-pie",
+      "description": "A Filipino coconut pie with tender young coconut meat in creamy filling.",
+      "imageUrl": "/images/recipes/desserts/dessert-pie.jpg",
+      "imageHint": "buko pie"
+    },
+    {
+      "id": "taho",
+      "description": "Filipino silken tofu dessert with brown sugar syrup and sago pearls.",
+      "imageUrl": "/images/recipes/desserts/dessert-taho.jpg",
+      "imageHint": "taho"
+    },
+    {
+      "id": "pancit-bihon",
+      "description": "A popular Filipino noodle dish stir-fried with vegetables, pork, and shrimp.",
+      "imageUrl": "/images/recipes/merienda/merienda-pancit.jpg",
+      "imageHint": "pancit bihon"
+    },
+    {
+      "id": "arroz-caldo",
+      "description": "A warm rice porridge flavored with ginger and topped with egg and garlic.",
+      "imageUrl": "/images/recipes/merienda/merienda-arroz.jpg",
+      "imageHint": "arroz caldo"
+    },
+    {
+      "id": "turon",
+      "description": "Crispy fried banana rolls coated with caramelized sugar.",
+      "imageUrl": "/images/recipes/merienda/merienda-turron.jpg",
+      "imageHint": "turon"
+    },
+    {
+      "id": "bibingka",
+      "description": "A soft rice cake traditionally cooked in banana leaves.",
+      "imageUrl": "/images/recipes/merienda/merienda-bibingka.jpg",
+      "imageHint": "bibingka"
+    },
+    {
+      "id": "empanada",
+      "description": "Crispy fried pastry filled with seasoned ground meat and vegetables.",
+      "imageUrl": "/images/recipes/merienda/merienda-empanada.jpg",
+      "imageHint": "filipino empanada"
+    },
+    {
+      "id": "puto",
+      "description": "Steamed rice cake topped with cheese and salted egg.",
+      "imageUrl": "/images/recipes/merienda/merienda-puto.jpg",
+      "imageHint": "puto"
+    }
+  ]
+}

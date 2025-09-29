@@ -1,0 +1,11 @@
+
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#92400e"/>
+  <rect x="50" y="150" width="500" height="100" fill="rgba(255,255,255,0.9)" rx="10"/>
+  <text x="300" y="210" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333">
+    Kare-Kare
+  </text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">
+    Filipino Recipe
+  </text>
+</svg>
